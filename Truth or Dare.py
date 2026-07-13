@@ -144,6 +144,8 @@ def choose_mode(prompt, gender):
          case 'd':
               question = random.choice(dare[gender])
               return question
+         case 'q':
+                quit()
          case _:
             print('Try a valid response next time! Here\'s a random selection')
             question = random.choice(random.choice(random_sel)[gender])
